@@ -21,8 +21,8 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 ### Links
 
-- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-4thGx7DsIJ)
-- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/stats-preview-card-component-main/)
+- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-using-tailwind-css-I3CLGKk_mP)
+- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/huddle-landing-page-with-curved-sections/)
 
 ## My process
 
