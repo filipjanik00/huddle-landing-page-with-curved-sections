@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <!-- Font Awesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="font-main">
+    <!-- Header -->
+    <header class="mt-8 md:mt-14 lg:px-12">
+      <!-- Header Top -->
+      <!-- Flex Container -->
+      <div
+        class="container flex mx-auto px-6 justify-between items-center lg:px-12"
+      >
+        <img
+          src="./images/logo.svg"
+          alt="Huddle Main Logo"
+          class="h-5 md:h-8 xl:h-9"
+        />
+        <a
+          href="#"
+          class="text-pink py-1 px-5 text-sm shadow-lg border-[1px] border-solid border-pink rounded-full hover:text-lightPink hover:border-lightPink transition-all md:px-8 md:py-2 md:text-base"
+          >Try It Free</a
+        >
+      </div>
+      <!-- Hero -->
+      <!-- Flex Container -->
+      <div
+        class="container mx-auto flex flex-col px-6 mt-20 py-2 md:mt-32 lg:mt-48"
+      >
+        <div class="text-center text-darkCyan">
+          <h1 class="text-2xl md:text-3xl lg:text-5xl">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p
+            class="my-8 md:max-w-lg md:m-auto sm:my-5 md:my-8 lg:text-lg lg:max-w-xl"
+          >
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <a
+            href="#"
+            class="text-paleBlue py-3 px-10 font-bold bg-pink rounded-full shadow-xl hover:opacity-90 transition md:py-5 md:px-16 lg:px-20 inline-block"
+            >Get Started For Free</a
+          >
+          <img
+            src="./images/screen-mockups.svg"
+            alt="Huddle Mockups"
+            class="mt-28 mx-auto"
+          />
+        </div>
+        <div
+          class="mt-20 flex flex-col justify-center items-center text-center gap-16 md:flex-row md:justify-around md:px-32 lg:mt-32"
+        >
+          <div>
+            <img
+              src="./images/icon-communities.svg"
+              alt="Huddle Communities"
+              class="h-7"
+            />
+            <h2 class="text-6xl my-3 md:text-[4rem] xl:text-[6rem]">1.4k+</h2>
+            <p class="opacity-60">Communities Formed</p>
+          </div>
+          <div>
+            <img
+              src="./images/icon-messages.svg"
+              alt="Huddle Messages"
+              class="h-7"
+            />
+            <h2 class="text-6xl my-3 md:text-[4rem] xl:text-[6rem]">2.7m+</h2>
+            <p class="opacity-60">Messages Sent</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Top Section Image -->
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/bg-section-top-desktop-1.svg"
+      />
+      <img src="./images/bg-section-top-mobile-1.svg" alt="" class="w-full" />
+    </picture>
+
+    <!-- Grow Together Section -->
+    <section id="grow-together" class="bg-paleBlue">
+      <!-- Flex Container -->
+      <div
+        class="container mx-auto flex flex-col-reverse gap-12 text-darkCyan p-8 md:flex-row md:items-center lg:px-8 xl:px-36"
+      >
+        <!-- Text Content -->
+        <div class="text-center md:text-left md:w-1/2">
+          <h3 class="text-xl md:text-2xl lg:text-3xl xl:text-[2.5rem]">
+            Grow Together
+          </h3>
+          <p class="mt-3 lg:max-w-lg lg:mt-6">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img
+            src="./images/illustration-grow-together.svg"
+            alt="Grow Together"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Section Image -->
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/bg-section-bottom-desktop-2.svg"
+      />
+      <img
+        src="./images/bg-section-bottom-mobile-2.svg"
+        alt=""
+        class="w-full"
+      />
+    </picture>
+
+    <!-- Flowing Conversations Section -->
+    <section id="flowing" class="my-32">
+      <!-- Flex Container -->
+      <div
+        class="container mx-auto flex flex-col-reverse gap-12 text-darkCyan p-8 md:flex-row-reverse md:items-center lg:px-8 xl:px-36 xl:gap-28"
+      >
+        <!-- Text Content -->
+        <div class="text-center md:text-left md:w-1/2">
+          <h3 class="text-xl md:text-2xl lg:text-3xl xl:text-[2.5rem]">
+            Flowing Conversations
+          </h3>
+
+          <p class="mt-3 lg:max-w-lg lg:mt-6">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img
+            src="./images/illustration-flowing-conversation.svg"
+            alt="Flowing Conversation"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Section Image -->
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/bg-section-bottom-desktop-1.svg"
+      />
+      <img
+        src="./images/bg-section-bottom-mobile-1.svg"
+        alt=""
+        class="w-full rotate-180"
+      />
+    </picture>
+
+    <!-- Your Users  Section -->
+    <section id="your-users" class="bg-paleBlue">
+      <!-- Flex Container -->
+      <div
+        class="container mx-auto flex flex-col-reverse gap-12 text-darkCyan p-8 md:flex-row md:items-center lg:px-8 xl:px-36"
+      >
+        <!-- Text Content -->
+        <div class="text-center md:text-left md:w-1/2">
+          <h3 class="text-xl md:text-2xl lg:text-3xl xl:text-[2.5rem]">
+            Your Users
+          </h3>
+
+          <p class="mt-3 lg:max-w-lg lg:mt-6">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img src="./images/illustration-your-users.svg" alt="Users" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Section Image -->
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/bg-section-bottom-desktop-2.svg"
+      />
+      <img
+        src="./images/bg-section-bottom-mobile-2.svg"
+        alt=""
+        class="w-full"
+      />
+    </picture>
+
+    <!-- Build Section -->
+    <section id="build" class="my-32 xl:my-44">
+      <!-- Flex container -->
+      <div class="container mx-auto flex flex-col items-center justify center">
+        <h2 class="text-darkCyan text-2xl text-center md:text-3xl lg:text-4xl">
+          Ready To Build Your Community?
+        </h2>
+        <a
+          href="#"
+          class="mt-6 xl:mt-10 text-paleBlue py-3 px-10 font-bold bg-pink rounded-full shadow-xl hover:opacity-90 transition md:py-5 md:px-16 lg:px-20 inline-block"
+          >Get Started For Free</a
+        >
+      </div>
+    </section>
+
+    <!-- Above Footer Curve Image -->
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/bg-footer-top-desktop.svg"
+      />
+      <img src="./images/bg-footer-top-mobile.svg" alt="" class="w-full" />
+    </picture>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-darkCyan">
+      <!-- Flex Container -->
+      <div
+        class="py-12 container mx-auto flex flex-col-reverse px-8 text-white md:py-16 lg:flex-row lg:items-center xl:px-32"
+      >
+        <!-- Left Column -->
+        <div class="mt-20 lg:w-1/2 lg:mt-20">
+          <!-- Logo and Desc -->
+          <div>
+            <img
+              src="./images/logo-white.svg"
+              alt="Footer Huddle Logo"
+              class="h-8 inline-block"
+            />
+            <p class="mt-4 font-semibold xl:max-w-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+          </div>
+          <!-- Phone and Email -->
+          <div class="mt-8">
+            <div class="flex items-center gap-4">
+              <img src="./images/icon-phone.svg" alt="Phone" />
+              <p class="font-semibold text-gray-300">Phone: +1-543-123-4567</p>
+            </div>
+            <div class="flex items-center gap-4 mt-2">
+              <img src="./images/icon-email.svg" alt="Email" />
+              <p class="font-semibold text-gray-300">example@huddle.com</p>
+            </div>
+          </div>
+          <!-- Socials -->
+          <div class="mt-8 flex gap-4 xl:mt-16">
+            <a href="#" class="hover:text-blue-600">
+              <i
+                class="hover:border-blue-600 fa-brands fa-facebook-f w-8 h-8 border-[1px] border-solid rounded-full flex items-center justify-center"
+              ></i>
+            </a>
+            <a href="#" class="hover:text-purple-700"
+              ><i
+                class="hover:border-purple-700 fa-brands fa-instagram w-8 h-8 border-[1px] border-solid rounded-full flex items-center justify-center"
+              ></i
+            ></a>
+            <a href="#" class="hover:text-blue-500">
+              <i
+                class="hover:border-blue-500 transition fa-brands fa-twitter w-8 h-8 border-[1px] border-solid rounded-full flex items-center justify-center"
+              ></i>
+            </a>
+          </div>
+        </div>
+        <!-- Right Column -->
+        <div class="lg:w-1/2 lg:pl-12">
+          <!-- Title and Desc -->
+          <div class="flex flex-col gap-4">
+            <h3 class="uppercase text-2xl">Newsletter</h3>
+            <p class="font-semibold lg:max-w-sm">
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We'll never send you spam or pass on your email
+              address
+            </p>
+          </div>
+          <!-- Input and Btn -->
+          <div
+            class="mt-8 flex gap-4 flex-col lg:flex-row lg:gap-6 lg:items-center"
+          >
+            <div class="lg:w-2/3">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="p-3 w-full rounded-lg focus:outline-none text-darkCyan"
+              />
+              <p
+                class="error absolute hidden text-xs md:text-base text-lightRed ml-1 font-bold"
+              >
+                Check your email please
+              </p>
+            </div>
+
+            <button
+              class="btn hover:opacity-90 transition self-end text-white py-3 px-8 bg-pink font-bold rounded-lg w-1/2 lg:w-1/3"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
